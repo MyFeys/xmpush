@@ -1,0 +1,25 @@
+{
+  "name": "kangshifu/xmpush",
+  "description": "小米消息推送-小米推送服务PHP Server端",
+  "keywords": ["kangshifu", "小米消息推送"],
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "kangshifu",
+      "email": "myfey@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "xmpush\\": "./src"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "bin": [
+    "xmpush"
+  ]
+}
